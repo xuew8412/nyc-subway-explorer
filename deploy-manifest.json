@@ -1,0 +1,15 @@
+{
+  "kind": "arcgis-nova-deployable-app",
+  "version": "0.1",
+  "generatedAt": "2026-11-09T12:24:17.659Z",
+  "title": "NYC Subway Explorer",
+  "authMode": "public",
+  "entry": "index.html",
+  "sourceAppPath": "outputs/apps/2026-11-09T12-24-17-dca86993-fcad-4366-920d-3b430587af27/index.html",
+  "files": {
+    "app": "app.json",
+    "map": "map.json",
+    "runtime": "app.js",
+    "auth": "standalone-auth.js"
+  }
+}

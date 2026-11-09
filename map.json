@@ -1,0 +1,87 @@
+{
+  "operationalLayers": [
+    {
+      "id": "1a1c045272f-layer-54",
+      "title": "NYC Subway Stations",
+      "url": "https://services1.arcgis.com/8cuieNI8NbqQZQVJ/arcgis/rest/services/NYC_Subway_Stations_Public_View/FeatureServer/5",
+      "itemId": "ae957aa9b4e043729332a1b1aadfbd73",
+      "layerType": "ArcGISFeatureLayer",
+      "layerDefinition": {
+        "drawingInfo": {
+          "renderer": {
+            "type": "simple",
+            "symbol": {
+              "type": "esriSMS",
+              "color": [
+                0,
+                191,
+                255,
+                255
+              ],
+              "angle": 0,
+              "xoffset": 0,
+              "yoffset": 0,
+              "size": 7,
+              "style": "esriSMSCircle",
+              "outline": {
+                "type": "esriSLS",
+                "color": [
+                  255,
+                  255,
+                  255,
+                  255
+                ],
+                "width": 1,
+                "style": "esriSLSSolid"
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  "baseMap": {
+    "baseMapLayers": [
+      {
+        "id": "dark-gray-base-layer",
+        "opacity": 1,
+        "title": "Dark Gray Base",
+        "visibility": true,
+        "layerType": "VectorTileLayer",
+        "styleUrl": "https://cdn.arcgis.com/sharing/rest/content/items/5e9b3685f4c24d8781073dd928ebda50/resources/styles/root.json"
+      },
+      {
+        "id": "dark-gray-reference-layer",
+        "opacity": 1,
+        "title": "Dark Gray Reference",
+        "visibility": true,
+        "layerType": "VectorTileLayer",
+        "styleUrl": "https://cdn.arcgis.com/sharing/rest/content/items/747cb7a5329c478cbe6981076cc879c5/resources/styles/root.json",
+        "isReference": true
+      }
+    ],
+    "title": "Dark Gray Canvas"
+  },
+  "authoringApp": "ArcGIS API for JavaScript",
+  "authoringAppVersion": "5.1",
+  "spatialReference": {
+    "latestWkid": 3857,
+    "wkid": 102100
+  },
+  "timeZone": "system",
+  "version": "2.37",
+  "initialState": {
+    "viewpoint": {
+      "targetGeometry": {
+        "spatialReference": {
+          "latestWkid": 3857,
+          "wkid": 102100
+        },
+        "xmin": -8265853.036397128,
+        "ymin": 4940741.164846604,
+        "xmax": -8210291.804933518,
+        "ymax": 4998078.561144188
+      }
+    }
+  }
+}
